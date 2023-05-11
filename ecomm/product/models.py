@@ -1,5 +1,8 @@
+import sys
+sys.path.insert(1,"A://DJ//ecomm//ecomm//Util")
+from utility_models import BaseModel
+
 from django.db import models
-from base.models import BaseModel
 
 # Create your models here.
 class Category(BaseModel):
